@@ -26,7 +26,8 @@ Gem::Specification.new do |spec|
   spec.executables   = ['david']
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "sqlite3", "~> 1.4"
+  spec.add_dependency "sqlite3", ">= 1.4"
+  spec.add_dependency "activesupport", ">= 5.2"
 
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 10.0"

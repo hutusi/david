@@ -1,4 +1,5 @@
 require "david/version"
+require "david/configure"
 
 module David
   class Error < StandardError; end
@@ -7,5 +8,8 @@ module David
   def self.main
     p 'Hello, David!'
     p ARGV
+
+    conf = Configure.new
+    conf.interact
   end
 end
