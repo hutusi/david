@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["John Hu"]
   spec.email         = ["huziyong@gmail.com"]
 
-  spec.summary       = %q{David is for geek daddy or mommy.}
-  spec.description   = %q{David is a command line tool that used to record baby's daily life.}
+  spec.summary       = %q{A ruby gem (command line) to record child's stories for geek daddy or mommy.}
+  spec.description   = %q{David is a command line tool that used to record child's daily stories.}
   spec.homepage      = "https://github.com/hutusi/david"
   spec.license       = "MIT"
 

@@ -1,28 +1,39 @@
 # David
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/david`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+David is a ruby gem (command line) to record child's stories for geek daddy or mommy. 
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Install it yourself as:
 
-```ruby
-gem 'david'
+```
+$ gem install david
 ```
 
-And then execute:
+### Requirements
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install david
+* Ruby (>= 2.0)
+* Sqlite3
 
 ## Usage
 
-TODO: Write usage instructions here
+Alias your child's name to the `david` command, append bellow to `~/.bashrc`. For example, child's name is 'Ian':
+
+```
+alias ian='david'
+```
+
+Just type command to record Ian's stories:
+
+```
+$ ian play with david
+```
+
+Or record a stories before:
+
+```
+$ ian play with david on 2018-02-01
+```
 
 ## Development
 
@@ -32,7 +43,16 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/david. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/hutusi/david. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+### Todolist
+
+- [ ] Record child's history stories.
+- [ ] Discriminate verb's tense.
+- [ ] Ask about child's stories. (What did david do on 2018-02-01?)
+- [ ] Record child's favorites.
+- [ ] Support more children.
+- [ ] Encrypt database.
 
 ## License
 
@@ -40,4 +60,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the David project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/david/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the David project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/hutusi/david/blob/master/CODE_OF_CONDUCT.md).
