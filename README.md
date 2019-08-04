@@ -20,7 +20,7 @@ $ gem install david
 Alias your child's name to the `david` command, append bellow to `~/.bashrc`. For example, child's name is 'Ian':
 
 ```
-alias ian='david'
+alias ian='david -nian'
 ```
 
 Just type command to record Ian's stories:
